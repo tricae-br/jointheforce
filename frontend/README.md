@@ -1,7 +1,7 @@
 <b>Premissas</b>
 
 - Fazer um fork do repositorio atual, e enviar um Pull Request quando tiver terminado.
-- Implementar o maximo possível do layout anexo com as tecnicas que preferir. Sendo:
+- Implementar o maximo possível do layout com as tecnicas que preferir. Sendo:
 
 O layout é composto de duas páginas:
 
