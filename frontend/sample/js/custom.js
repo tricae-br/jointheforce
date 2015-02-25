@@ -42,14 +42,18 @@ jQuery(document).ready(function($){
 		prevText: "",
 		nextText: ""
 	});
-	$('.productcaroussel').flexslider({
-		animation: "slide",
-		itemWidth: 130,
-		slideshow: false,
-		controlNav: false,
-		prevText: "",
-		nextText: ""
-	});
+	
+	setTimeout(function() {
+		$('.productcaroussel').flexslider({
+			animation: "slide",
+			itemWidth: 130,
+			slideshow: false,
+			controlNav: false,
+			prevText: "",
+			nextText: ""
+		});
+	}, 2000);
+	
 	$('.menucaroussel').flexslider({
 		animation: "slide",
 		animationLoop: false,
