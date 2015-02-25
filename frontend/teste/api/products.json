@@ -1,0 +1,106 @@
+{
+    "products": [
+        {
+            "product": {
+                "title": "Super Comidas",
+                "price": 45.98,
+                "images": [
+                    {
+                        "image": "http://i.imgur.com/KxlxqLO.jpg"
+                    },
+                    {
+                        "image": "http://i.imgur.com/HW5xRT5.jpg"
+                    },
+                    {
+                        "image": "http://i.imgur.com/08E01Uo.jpg"
+                    },
+                    {
+                        "image": "http://i.imgur.com/R7XKgKH.jpg"
+                    },
+                    {
+                        "image": "http://i.imgur.com/wmcHOuV.jpg"
+                    }
+                ],
+                "special-price": 44.77,
+                "eco-tax": 0.05,
+                "vat": 0.08,
+                "brand": "Vegetables",
+                "code": 123232399,
+                "availability": 0,
+                "rating": 3,
+                "description": "O incentivo ao avanço tecnológico, assim como a mobilidade dos capitais internacionais auxilia a preparação e a composição dos níveis de motivação departamental. Por outro lado, o entendimento das metas propostas faz parte de um processo de gerenciamento do orçamento setorial.",
+                "specification": "No mundo atual, a consulta aos diversos militantes maximiza as possibilidades por conta dos métodos utilizados na avaliação de resultados.",
+                "reviews": [
+                    {
+                        "review": {
+                            "author": "João da Silva",
+                            "date": "2015-02-20",
+                            "rate": 3,
+                            "description": "O que temos que ter sempre em mente é que a consolidação das estruturas garante a contribuição de um grupo importante na determinação dos níveis de motivação departamental."
+                        }
+                    },
+                    {
+                        "review": {
+                            "author": "José da Silva",
+                            "date": "2015-01-20",
+                            "rate": 3,
+                            "description": "Todavia, o fenômeno da Internet deve passar por modificações independentemente das diversas correntes de pensamento."
+                        }
+                    }
+                ],
+                "frete": 9.9
+            }
+        },
+        {
+            "product": {
+                "title": "Livros Infantis que estão na prateleira",
+                "price": 144.32,
+                "images": [
+                    {
+                        "image": "http://i.imgur.com/LHKazKl.jpg"
+                    },
+                    {
+                        "image": "http://i.imgur.com/w6JEQf3.jpg"
+                    },
+                    {
+                        "image": "http://i.imgur.com/m9WBqfP.jpg"
+                    },
+                    {
+                        "image": "http://i.imgur.com/3OD3sK6.jpg"
+                    },
+                    {
+                        "image": "http://i.imgur.com/F5HfVkI.jpg"
+                    }
+                ],
+                "special-price": 119.99,
+                "eco-tax": 0.05,
+                "vat": 0.08,
+                "brand": "Boooks by Books & Co.",
+                "code": 234234234,
+                "availability": 7,
+                "rating": 5,
+                "description": "Neste sentido, a determinação clara de objetivos representa uma abertura para a melhoria do sistema de participação geral.A certificação de metodologias que nos auxiliam a lidar com a complexidade dos estudos efetuados possibilita uma melhor visão global das novas proposições.Nunca é demais lembrar o peso e o significado destes problemas, uma vez que a necessidade de renovação processual acarreta um processo de reformulação e modernização dos procedimentos normalmente adotados.Por conseguinte, o novo modelo estrutural aqui preconizado oferece uma interessante oportunidade para verificação das diversas correntes de pensamento.A nível organizacional, o desenvolvimento contínuo de distintas formas de atuação apresenta tendências no sentido de aprovar a manutenção das posturas dos órgãos dirigentes com relação às suas atribuições.",
+                "specification": "O cuidado em identificar pontos críticos na complexidade dos estudos efetuados talvez venha a ressaltar a relatividade do retorno esperado a longo prazo.",
+                "reviews": [
+                    {
+                        "review": {
+                            "author": "Mario",
+                            "date": "2013-02-20",
+                            "rate": 5,
+                            "description": "Todas estas questões, devidamente ponderadas, levantam dúvidas sobre se a crescente influência da mídia representa uma abertura para a melhoria dos relacionamentos verticais entre as hierarquias."
+                        }
+                    },
+                    {
+                        "review": {
+                            "author": "Que Mario?",
+                            "date": "2012-01-20",
+                            "rate": 5,
+                            "description": "Todavia, a expansão dos mercados mundiais aponta para a melhoria dos conhecimentos estratégicos para atingir a excelência."
+                        }
+                    }
+                ],
+                "frete": 13.63
+            }
+        }
+    ]
+}
