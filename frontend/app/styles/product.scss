@@ -1,0 +1,52 @@
+.priceTag{
+    width: 238px;
+    height: 68px;
+    background: url(../images/price-label.png);
+    padding: 7px 77px;
+    padding-right: 0px;
+    .price{
+        color: #666666;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: 'Source Sans Pro';
+        text-decoration: line-through;
+    }
+    .price-special{
+        color: #c1272d;   
+        font-weight: 900;
+        font-size: 18px;
+        font-family: 'Source Sans Pro';
+    }
+    .tax{
+        color: #808080;
+        font-size: 11px;
+    }
+}
+.infos {
+    margin-top: 5px;
+    ul{
+        list-style: none;
+        li {
+            margin-left: 37px;
+            color: #333333;
+            font-size: 14px;
+            font-family: 'Source Sans Pro';
+            font-weight: 400;
+            .available, .not-available{
+                color: #998e00;
+                font-weight: 700;
+                font-size: 14px;
+                font-family: 'Source Sans Pro';
+            }
+            .not-available {
+                color:#c1272d;
+            }
+        }
+    }
+}
+
+.panel {
+    padding: 20px;
+    ￼.ng-invalid.ng-dirty { border-color: #FA787E;}
+    .ng-valid.ng-dirty {border-color: #78fa89;}
+}
