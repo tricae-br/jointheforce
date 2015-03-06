@@ -1,0 +1,100 @@
+@mixin linear-gradient($fromColor, $toColor) {
+  background-color: $toColor; /* Fallback Color */
+  background-image: -webkit-gradient(linear, left bottom, left top, from($fromColor), to($toColor)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(bottom, $fromColor, $toColor); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(bottom, $fromColor, $toColor); /* FF3.6 */
+  background-image:     -ms-linear-gradient(bottom, $fromColor, $toColor); /* IE10 */
+  background-image:      -o-linear-gradient(bottom, $fromColor, $toColor); /* Opera 11.10+ */
+  background-image:         linear-gradient(to bottom, $fromColor, $toColor);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$fromColor}', EndColorStr='#{$toColor}');
+}
+
+.priceTag{
+    width: 238px;
+    height: 68px;
+    background: url(../images/price-label.png);
+    padding: 7px 77px;
+    padding-right: 0px;
+    .price{
+        color: #666666;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: 'Source Sans Pro';
+        text-decoration: line-through;
+    }
+    .price-special{
+        color: #c1272d;   
+        font-weight: 900;
+        font-size: 18px;
+        font-family: 'Source Sans Pro';
+    }
+    .tax{
+        color: #808080;
+        font-size: 11px;
+    }
+}
+.infos {
+    margin-top: 5px;
+    ul{
+        list-style: none;
+        li {
+            margin-left: 37px;
+            color: #333333;
+            font-size: 14px;
+            font-family: 'Source Sans Pro';
+            font-weight: 400;
+            .available, .not-available{
+                color: #998e00;
+                font-weight: 700;
+                font-size: 14px;
+                font-family: 'Source Sans Pro';
+            }
+            .not-available {
+                color:#c1272d;
+            }
+        }
+    }
+}
+
+ul.nav-tabs {
+    border-bottom: #bfe3f1 thin solid;
+    li, li.active {
+        -moz-border-radius-topright: 5px;
+        -webkit-border-top-right-radius: 5px;
+        border-top-right-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        -webkit-border-top-left-radius: 5px;
+        border-top-left-radius: 5px;
+        @include linear-gradient(#FFFFFF,#DFF1F8);
+        border-right:#bfe3f1 thin solid;
+        border-left:#bfe3f1 thin solid;
+        border-bottom:#bfe3f1 thin solid;
+        border-top:#bfe3f1 thin solid;
+        margin-right: 2px;
+        a{
+            background: transparent;
+            border: 0px;
+            font-weight: 600;
+            font-size: 12px;
+            &:hover, &:focus{
+                background: transparent;
+                border: 0px;
+                @include linear-gradient(#FFFFFF,#DFF1F8);
+            }
+        }
+    }
+    li.active{
+        border-bottom: 0;
+    }
+}
+
+.panel {
+    padding: 20px;
+    ￼.ng-invalid.ng-dirty { border-color: #FA787E;}
+    .ng-valid.ng-dirty {border-color: #78fa89;}
+    border: 0px;
+    border-left: #bfe3f1 thin solid;
+    border-radius: 0px;
+    background-color: transparent;
+    box-shadow: inherit;
+}
