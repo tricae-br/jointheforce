@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Carrinho</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-face.css">
+	<!--[if lt IE 9]>
+	 <link rel="stylesheet" href="css/style-ie8.css">
+	<![endif]-->
+	<script type="text/javascript" src="js/respond.js"></script>
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=169468719914506&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="#" class="logo"></a>
+				</div>
+				<div class="col-md-4 col-md-offset-4 text-right">
+					<!-- Language bar and currency bar -->
+					<div class="row">
+						<div class="col-md-12">
+							<ul class="language-bar">
+								<li class="current"><a href="#">EN</a></li>
+								<li><a href="#">FR</a></li>
+								<li><a href="#">DE</a></li>
+							</ul>
+							<ul class="currency-bar">
+								<li class="current"><a href="">$</a></li>
+								<li><a href="">£</a></li>
+								<li><a href="">€</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- Search bar -->
+					<div class="row">
+						<div class="col-md-12">
+							<input type="search" placeholder="Search" size="28">
+							<a href="#" class="bt-search"></a>
+						</div>
+					</div>
+					<!-- Shopping Cart -->
+					<div class="row">
+						<div class="col-md-12">
+							<a href="#" class="bt-shopping"></a>
+							<div class="shopping-cart pull-right text-left">
+								<span class="shop-title">Shopping Cart</span>
+								<span class="shop-items">2 item(s)</span>
+								-
+								<span class="shop-price">$ 28.90</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 shopping-submenu">
+					<ul class="shopping-submenu-links">
+						<li><a href="#">Wish list (0)</a></li>
+						<li><a href="#">My Account</a></li>
+						<li><a href="#">Shopping Cart</a></li>
+						<li><a href="#">CheckOut</a></li>
+					</ul>
+					<span class="shop-login">Welcome visitor you can <a href="#">login</a> or create an <a href="#">account</a>.</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="menu">
+						<li><a href="#">Clothes For Girls</a></li>
+						<li><a href="#">Clothes For Boys</a></li>
+						<li><a href="#">Furniture</a></li>
+						<li><a href="#">Prams</a></li>
+						<li><a href="#">Toys</a></li>
+						<li><a href="#">Child Seats</a></li>
+						<li><a href="#">Safety</a></li>
+						<li><a href="#">At Home</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<!-- BREADCRUMB -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="bradcrumb">You are here: <a href="#">Home</a> » <a href="#">Shopping Cart</a></div>
+				</div>
+			</div>
+			<!-- PAGE TITLE -->
+			<div class="row">
+				<div class="col-md-3">
+					<div class="page-title">Your shopping cart</div>
+				</div>
+				<div class="col-md-9">
+					<div class="page-stroke"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12"></div>
+			</div>
+			<!-- SORT BAR -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sort-bar">
+						<div class="row">
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+								<div class="sort-padding">Image</div>
+							</div>
+							<div class="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+								<div class="sort-padding">Product Name</div>
+							</div>
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+								<div class="sort-padding">Model</div>
+							</div>
+							<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1">
+								<div class="sort-padding">Quantity</div>
+							</div>
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+								<div class="sort-padding">Unit Price</div>
+							</div>
+							<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1">
+								<div class="sort-padding">Total</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- BEGIN PRODUCTS -->
+			<div class="row">
+				<div id="produtos" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					
+
+				</div>
+			</div>
+			<!-- END PRODUCTS -->
+
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-offset-9 col-md-3">
+					<div class="row">
+						<div class="col-xs-6 col-sm-10 col-md-8 text-right">Sub-total</div>
+						<div class="col-xs-6 col-sm-2 col-md-4 text-right">$219.00</div>
+						<div class="col-xs-6 col-sm-10 col-md-8 text-right">Discount</div>
+						<div class="col-xs-6 col-sm-2 col-md-4 text-right">-19.00</div>
+						<div class="col-xs-6 col-sm-10 col-md-8 text-right">Included VAT (19,00%)</div>
+						<div class="col-xs-6 col-sm-2 col-md-4 text-right">$31.93</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-xs-6 col-sm-10 col-md-8 text-right"><span class="total-title">Total</span></div>
+						<div class="col-xs-6 col-sm-2 col-md-4 text-right"><span class="total-value">$200.00</span></div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-right">
+							<a href="#" class="shopping-button">Continuing Shopping</a>
+							<a href="#" class="shopping-button">Checkout</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="first-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-3">
+						<h3 class="footer-title"><div class="footer-icon about-us"></div>About us</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus ac velit faucibus feugiat. Donec dignissim, eros elementum porttitor tempor, massa ligula cursus libero, vel ullamcorper dui ipsum id magna. Pellentesque adipiscing euismod mauris id pharetra.</p>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-3">
+						<h3 class="footer-title"><div class="footer-icon contact-us"></div>Contact us</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus ac velit faucibus feugiat. Donec dignissim, eros elementum porttitor tempor, massa ligula cursus libero, vel ullamcorper dui ipsum id magna. Pellentesque adipiscing euismod mauris id pharetra.</p>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-3">
+						<h3 class="footer-title"><div class="footer-icon twitter"></div>Twitter news</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum tellus ac velit faucibus feugiat. Donec dignissim, eros elementum porttitor tempor, massa ligula cursus libero, vel ullamcorper dui ipsum id magna. Pellentesque adipiscing euismod mauris id pharetra.</p>
+					</div>
+					<div class="col-xs-12  col-sm-4 col-md-3">
+						<h3 class="footer-title"><div class="footer-icon facebook"></div>Facebook</h3>
+						<div class="fb-like-box" data-href="https://www.facebook.com/TricaeBR" data-height="180" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="second-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6 col-sm-3 col-md-3">
+						<h3 class="footer-menu-title">Informations</h3>
+						<ul>
+							<li>About us</li>
+							<li>Delivery information</li>
+							<li>Privacy Policy</li>
+							<li>Terms & Conditions</li>
+						</ul>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3">
+						<h3 class="footer-menu-title">Customer service</h3>
+						<ul>
+							<li>About us</li>
+							<li>Delivery information</li>
+							<li>Privacy Policy</li>
+							<li>Terms & Conditions</li>
+						</ul>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3">
+						<h3 class="footer-menu-title">Extra</h3>
+						<ul>
+							<li>About us</li>
+							<li>Delivery information</li>
+							<li>Privacy Policy</li>
+							<li>Terms & Conditions</li>
+						</ul>
+					</div>
+					<div class="col-xs-6 col-sm-3 col-md-3">
+						<h3 class="footer-menu-title">My Account</h3>
+						<ul>
+							<li>About us</li>
+							<li>Delivery information</li>
+							<li>Privacy Policy</li>
+							<li>Terms & Conditions</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		
+		
+		var id = 0;
+		var json 	 = 'products.json';
+		var template = '<div class="product">\
+						<div class="row">\
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">\
+								<div class="sort-padding">\
+									<img class="img-responsive" src="{image}" alt="">\
+								</div>\
+							</div>\
+							<div class="col-xs-2 col-sm-4 col-md-4 col-lg-4">\
+								<div class="sort-padding">\
+									<span class="product-title"><a href="produto.html">{title}</a></span>\
+									<span class="product-description">\
+										{description}\
+									</span>\
+								</div>\
+							</div>\
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">\
+								<div class="sort-padding">\
+									{code}\
+								</div>\
+							</div>\
+							<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1">\
+								<div class="sort-padding">\
+									<input type="text" size="1" value="3" class="quantity-field">\
+								</div>\
+							</div>\
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">\
+								<div class="sort-padding">\
+									<input id="{id}" type="hidden" value="{price}" class="unitPrice">\
+									${price2}\
+								</div>\
+							</div>\
+							<div class="col-xs-2 col-sm-1 col-md-1 col-lg-1">\
+								<div class="sort-padding totalprice">\
+									\
+								</div>\
+							</div>\
+							<div class="col-md-offset-8 col-md-2 text-right">\
+								<div class="sort-padding">\
+									<a href="#" class="product-button refresh"></a>\
+									<a href="#" class="product-button delete"></a>\
+								</div>\
+							</div>\
+						</div>\
+					</div>';
+
+
+		$.getJSON( json, jsonLoaded );
+
+		function jsonLoaded( data )
+		{
+			var products = data.products;
+			var id = 0;
+
+			for( var index in products )
+			{
+				
+				var product 	= products[index]['product'];
+				var title 		= product.title;
+				var code 		= product.code;
+				var price 		= product.price;
+				var price2		= product.price;
+				var description = product.description;
+				var image		= product.images[0].image;
+
+				var parts 	= template;
+					parts	= parts.replace( '{title}', title);
+					parts	= parts.replace( '{code}', code );
+					parts	= parts.replace( '{price}', price );
+					parts	= parts.replace( '{price2}', price2 );
+					parts	= parts.replace( '{description}', description );
+					parts	= parts.replace( '{image}', image );
+					
+
+				$( '#produtos' ).append( parts );
+
+
+				var quantidade = $(".quantity-field").val();
+				var unitPrice =  $(".unitPrice").val();
+				var result = quantidade * unitPrice;
+				$(".totalprice").text(result);
+			}
+		}
+
+	    
+
+
+
+	</script>
+</body>
+</html>
