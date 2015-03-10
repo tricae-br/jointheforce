@@ -1,0 +1,27 @@
+
+
+.language-bar, .currency-bar
+{
+	background-color: pink;
+	border: 1px solid #b3b3b3;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.container
+{
+    display:table;
+    width: 100%;
+}
+.row
+{
+    height: 100%;
+    display: table-row;
+}
+.col-md-4, .col-md-8
+{
+    display: table-cell;
+}
+
